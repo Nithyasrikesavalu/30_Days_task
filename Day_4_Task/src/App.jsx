@@ -6,6 +6,7 @@ import Productard from './Components/Productard'
 import FindSearch from './Components/FindSearch'
 import Carttotal from './Components/Carttotal'
 import StudentManagement from './Components/StudentManagement'
+import OrderManagement from './Components/OrderManagement'
 
 
 
@@ -18,7 +19,7 @@ const App = () => {
       <Route path="/task3" element={<FindSearch />} />
       <Route path="/task4" element={<Carttotal/>} />
       <Route path="/task5" element={<StudentManagement />} />
-
+      <Route path="/task6" element={<OrderManagement/>} />
 
 
     </Routes>

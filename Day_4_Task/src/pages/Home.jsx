@@ -48,6 +48,13 @@ const Home = () => {
             Student management
           </Link>
 
+          <Link
+            to="/task6"
+            className="bg-red-500 text-white py-3 px-4 rounded-lg text-center hover:bg-red-600 transition duration-300"
+          >
+            order management
+          </Link>
+
         </div>
 
       </div>
